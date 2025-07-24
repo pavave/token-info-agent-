@@ -4,7 +4,7 @@ Token Info Agent is a Telegram bot built as part of the Shade Agents Challenge (
 
 ---
 
-⚙️ Features
+# ⚙️ Features
 
 - Understands natural language prompts such as:
   - “What’s the price of ETH?”
@@ -17,7 +17,7 @@ Token Info Agent is a Telegram bot built as part of the Shade Agents Challenge (
 
 ---
 
-🧩 Prompt Examples (`prompt_examples.txt`)
+# 🧩 Prompt Examples (`prompt_examples.txt`)
 
 1. What's the price of SOL?
 → 💰 SOL price is $178.42 (via CoinGecko)
@@ -30,7 +30,7 @@ Token Info Agent is a Telegram bot built as part of the Shade Agents Challenge (
 
 ---
 
-📦 Installation Instructions
+# 📦 Installation Instructions
 
 1. Clone the repository
 
@@ -54,7 +54,7 @@ pip install -r requirements.txt
 
 ---
 
-🔐 Configuration
+# 🔐 Configuration
 
 1. Create `.env` file
 
@@ -70,7 +70,7 @@ TELEGRAM_TOKEN=YOUR_TELEGRAM_BOT_API_KEY
 
 ---
 
-🚀 Running the Bot
+# 🚀 Running the Bot
 
 Run the bot script:
 
@@ -79,7 +79,7 @@ python main.py
 
 ---
 
-💬 Usage
+# 💬 Usage
 
 Open Telegram, find your bot by username, start chatting, and try queries like:
 
@@ -91,25 +91,26 @@ The bot will reply with live token price information fetched from CoinGecko or D
 
 ---
 
-📁 Project Structure
+# 📁 Project Structure
 
 token-info-agent/
+|
 ├── main.py # Telegram bot main logic and handlers
-
+|
 ├── token_utils.py # Token price fetching logic (CoinGecko & DexScreener APIs)
-
+|
 ├── requirements.txt # Python dependencies
-
+|
 ├── .env.example # Example environment variable file
-
+|
 ├── README.md # This README file
-
+|
 └── prompt_examples.txt # Example user prompts and expected outputs
 
 
 ---
 
-🎥 Demo Video
+# 🎥 Demo Video
 
 Watch demo video on YouTube (replace with actual link once available)
 
@@ -125,7 +126,7 @@ Watch demo video on YouTube (replace with actual link once available)
 
 ---
 
-🧠 Future Improvements Ideas
+# 🧠 Future Improvements Ideas
 
 - Add currency conversion (e.g., ETH to EUR)
 - Support batch queries (multiple tokens in one message)
@@ -135,13 +136,13 @@ Watch demo video on YouTube (replace with actual link once available)
 
 ---
 
-📜 License
+# 📜 License
 
 This project is licensed under the MIT License — free to use, modify, and distribute.
 
 ---
 
-🤖 About
+# 🤖 About
 
 Created as part of the Shade Agents initiative on the NEAR blockchain ecosystem, showcasing autonomous AI agents capable of working seamlessly with decentralized data and protocols.
 
