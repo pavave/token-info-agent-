@@ -34,14 +34,16 @@ Token Info Agent is a Telegram bot built as part of the Shade Agents Challenge (
 
 1. Clone the repository
 
-git clone https://github.com/YOUR_USERNAME/token-info-agent.git
+git clone https://github.com/pavave/token-info-agent.git
 cd token-info-agent
 
 
 2. Create and activate a virtual environment (recommended)
 
 python3 -m venv venv
+
 source venv/bin/activate # Linux/MacOS
+
 venv\Scripts\activate # Windows PowerShell
 
 
@@ -63,7 +65,7 @@ cp .env.example .env
 
 Edit `.env` to add your actual token:
 
-TELEGRAM_TOKEN=8149829236:AAG_fbNtsgult_h2aHkb-8h-lqxnq-JDKYY
+TELEGRAM_TOKEN=YOUR_TELEGRAM_BOT_API_KEY
 
 
 ---
@@ -93,10 +95,15 @@ The bot will reply with live token price information fetched from CoinGecko or D
 
 token-info-agent/
 ├── main.py # Telegram bot main logic and handlers
+
 ├── token_utils.py # Token price fetching logic (CoinGecko & DexScreener APIs)
+
 ├── requirements.txt # Python dependencies
+
 ├── .env.example # Example environment variable file
+
 ├── README.md # This README file
+
 └── prompt_examples.txt # Example user prompts and expected outputs
 
 
