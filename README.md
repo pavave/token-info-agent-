@@ -94,17 +94,17 @@ The bot will reply with live token price information fetched from CoinGecko or D
 # 📁 Project Structure
 
 token-info-agent/
-|
+
 ├── main.py # Telegram bot main logic and handlers
-|
+
 ├── token_utils.py # Token price fetching logic (CoinGecko & DexScreener APIs)
-|
+
 ├── requirements.txt # Python dependencies
-|
+
 ├── .env.example # Example environment variable file
-|
+
 ├── README.md # This README file
-|
+
 └── prompt_examples.txt # Example user prompts and expected outputs
 
 
