@@ -1,0 +1,8 @@
+Prompt: What is the price of ETH?
+Expected Output: 💰 ETH price is $3,216.20 (via CoinGecko).
+
+Prompt: How much is USDT?
+Expected Output: 💰 USDT price is $1.00 (via CoinGecko).
+
+Prompt: What’s the price of PEPE?
+Expected Output: 💱 PEPE price is $0.00000124 (via DexScreener).
