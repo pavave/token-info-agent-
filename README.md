@@ -34,7 +34,7 @@ Token Info Agent is a Telegram bot built as part of the Shade Agents Challenge (
 
 1. Clone the repository
 
-git clone https://github.com/pavave/token-info-agent.git
+git clone https://github.com/pavave/token-info-agent-.git
 cd token-info-agent
 
 
