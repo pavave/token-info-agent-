@@ -44,7 +44,7 @@ pip install -r requirements.txt
 1. Create `.env` file:
 
 ```bash
-cp .env.example .env
+nano .env
 ```
 
 2. Edit `.env` and add your actual bot token:
