@@ -34,21 +34,28 @@ Token Info Agent is a Telegram bot built as part of the Shade Agents Challenge (
 
 1. Clone the repository
 
+<pre> ```bash
 git clone https://github.com/pavave/token-info-agent-.git
 cd token-info-agent-
 
 
 2. Create and activate a virtual environment (recommended)
 
+<pre> ```bash
 python3 -m venv venv
-
-source venv/bin/activate # Linux/MacOS
-
-venv\Scripts\activate # Windows PowerShell
+  
+# Linux/MacOS
+<pre> ```bash
+source venv/bin/activate 
+  
+# Windows 
+<pre> ```PowerShell
+venv\Scripts\activate 
 
 
 3. Install dependencies
 
+<pre> ```bash
 pip install -r requirements.txt
 
 
@@ -60,11 +67,13 @@ pip install -r requirements.txt
 
 Copy the example environment file and fill in your Telegram bot token:
 
+<pre> ```copy
 cp .env.example .env
 
 
 Edit `.env` to add your actual token:
 
+<pre> ```copy
 TELEGRAM_TOKEN=YOUR_TELEGRAM_BOT_API_KEY
 
 
@@ -74,6 +83,7 @@ TELEGRAM_TOKEN=YOUR_TELEGRAM_BOT_API_KEY
 
 Run the bot script:
 
+<pre> ```bash  
 python main.py
 
 
