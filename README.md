@@ -91,7 +91,7 @@ token-info-agent/
 
 ## 🎥 Demo Video
 
-_(https://youtu.be/TpyKPLdSm1k)_
+_https://youtu.be/TpyKPLdSm1k_
 
 ---
 
