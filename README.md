@@ -34,14 +34,14 @@ Token Info Agent is a Telegram bot built as part of the Shade Agents Challenge (
 
 1. Clone the repository
 
-<pre> ```bash
+```bash
 git clone https://github.com/pavave/token-info-agent-.git
 cd token-info-agent-
 
 
 2. Create and activate a virtual environment (recommended)
 
-<pre> ```bash
+```bash
 python3 -m venv venv
   
 # Linux/MacOS
